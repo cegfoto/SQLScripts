@@ -19,25 +19,4 @@ CREATE TABLE financial_movements (
     FOREIGN KEY (id_institution) REFERENCES institutions(id)
 );
 
-INSERT INTO institutions(name) VALUES ('ITAU');
-INSERT INTO institutions(name) VALUES ('PIC PAY');
-INSERT INTO institutions(name) VALUES ('RICO');
-INSERT INTO institutions(name) VALUES ('NU BANK');
-INSERT INTO institutions(name) VALUES ('NU INVEST');
 
-INSERT INTO types_of_movements(name) VALUES ('MERCADO');
-INSERT INTO types_of_movements(name) VALUES ('ESPORTE');
-INSERT INTO types_of_movements(name) VALUES ('ALIMENTAÇÃO');
-INSERT INTO types_of_movements(name) VALUES ('SAÚDE');
-INSERT INTO types_of_movements(name) VALUES ('FAMÍLIA E AMIGOS');
-INSERT INTO types_of_movements(name) VALUES ('INVESTIMENTO');
-INSERT INTO types_of_movements(name) VALUES ('SALÁRIO');
-INSERT INTO types_of_movements(name) VALUES ('RETORNO INVESTIMENTO');
-INSERT INTO types_of_movements(name) VALUES ('CASA');
-INSERT INTO types_of_movements(name) VALUES ('DOAÇÃO');
-INSERT INTO types_of_movements(name) VALUES ('STREAMING E GAMES');
-INSERT INTO types_of_movements(name) VALUES ('EDUCAÇÃO');
-INSERT INTO types_of_movements(name) VALUES ('TRANSPORTE');
-INSERT INTO types_of_movements(name) VALUES ('VIAGEM');
-INSERT INTO types_of_movements(name) VALUES ('BENS DE CONSUMO');
-INSERT INTO types_of_movements(name) VALUES ('CINEMA SHOWS SHOPPING ETC');
